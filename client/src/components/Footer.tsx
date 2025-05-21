@@ -67,7 +67,7 @@ function Footer() {
   //   </footer>
   // );
 
-   <footer className="relative z-10 bg-transparent py-8">
+   <footer id="footer" className="relative z-10 bg-transparent py-8">
       <div className="container mx-auto px-4 text-center">
         {/* Social Links (Optional) */}
         <div className="flex justify-center space-x-6 mb-6">

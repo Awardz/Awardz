@@ -1,8 +1,8 @@
 function Resume() {
   return (
-<section id="resume" className="py-16">
-      <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold mb-8 text-center text-white">My Resume</h2>
+    <section id="resume" className="py-16 w-full border border-grey-700">
+      <div className="mx-auto px-4 w-full max-w-6xl">
+        <h2 className="text-3xl font-bold mb-12 text-center text-white">My Resume</h2>
         
         {/* Experience */}
         {/* // border-b-2 is a 2px bottom border */}
@@ -23,8 +23,8 @@ function Resume() {
         </div> */}
 
         {/* Skills */}
-        <div>
-          <h3 className="text-xl font-semibold mb-4 border-b-2 border-gray-200 pb-2 text-white">Skills</h3>
+        <div className="w-full mb-12">
+          <h3 className="text-xl font-semibold mb-6 pb-2 text-white border-b-2 border-gray-400 w-full text-center">Skills</h3>
 
         <div className="flex flex-wrap items-center gap-4 mb-2">
         <span className="text-lg font-bold relative group text-white">

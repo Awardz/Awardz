@@ -1,24 +1,52 @@
-# Logs
-logs
-*.log
+# Dependency directories
+node_modules/
+.pnp/
+.pnp.js
+
+# Build files
+dist/
+build/
+.out/
+.next/
+
+# Cache
+.cache/
+
+# Environment variables
+.env*
+!.env.example
+
+# Debug logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
-*.local
-
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
-.DS_Store
+# IDE/Editor
+.vscode/
+.idea/
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Vite/React specific
+*.local
+.eslintcache
+
+# Vanta.js/Three.js artifacts
+*.glb
+*.gltf
+*.bin
+*.hdr
+
+# Optional (for testing)
+cypress/videos/
+cypress/screenshots/
+
+# TypeScript
+*.tsbuildinfo
