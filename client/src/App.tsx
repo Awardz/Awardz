@@ -12,6 +12,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
 import { useEffect } from 'react';
 import { motion} from 'framer-motion';
+import Projects from './components/Projects'
 
 const VantaBackground = lazy(() => import('./components/VantaBackground'));
 function App() 
@@ -34,37 +35,55 @@ return (
     <Footer />
   </div> */
   
-  
-
-  
-  
-    <div className="scroll-smooth border border-gray-400 min-h-screen w-screen">
+    <div className="scroll-smooth min-h-screen w-screen">
       <div className="fixed inset-0 -z-10 overflow-hidden">
             <Suspense fallback={<div>Loading...</div>}>
             <VantaBackground />
           </Suspense>
       </div>
        <motion.div
-  initial={{ scale: 0.9 }}
-  animate={{ scale: 1 }}
-  transition={{ type: "spring", stiffness: 300 }}
-  className="w-full">  
+        initial={{ scale: 0.9 }}
+        animate={{ scale: 1 }}
+        transition={{ type: "spring", stiffness: 300 }}
+        className="w-full">  
+
           <Navbar />
 
-            <Hero />
-
-          <Mission />
-
-          <Resume />
-    
-          <section id="hello" className="min-h-screen flex items-center justify-center">
-          <motion.h1 
+       <section id="hero" className="min-h-screen flex items-center justify-center">
+          <motion.div 
             initial={{ scale: 0.9 }}
             whileInView={{ scale: 1 }}
-            className="text-4xl font-bold text-blue-600"
-          >
-            Hello, world!
-          </motion.h1>
+            className="font-bold text-white mb-4">
+            <Hero />
+          </motion.div>
+        </section>
+
+       <section id="mission" className="min-h-screen flex items-center justify-center">
+          <motion.div 
+            initial={{ scale: 0.9 }}
+            whileInView={{ scale: 1 }}
+            className="font-bold text-white mb-4">
+            <Mission />
+          </motion.div>
+        </section>
+          
+  
+          <section id="resume" className="min-h-screen flex items-center justify-center">
+          <motion.div 
+            initial={{ scale: 0.9 }}
+            whileInView={{ scale: 1 }}
+            className="font-bold text-white mb-4">
+            <Resume />
+          </motion.div>
+        </section>
+    
+          <section id="projects" className="min-h-screen flex items-center justify-center">
+          <motion.div 
+            initial={{ scale: 0.9 }}
+            whileInView={{ scale: 1 }}
+            className="font-bold text-white mb-4">
+            <Projects />
+          </motion.div>
         </section>
 
           <Footer />

@@ -6,6 +6,7 @@ function Navbar() {
         <ul className="flex space-x-4">
           <li><a href="#welcome" className="hover:underline text-white">Home</a></li>
           <li><a href="#resume" className="hover:underline text-white">Resume</a></li>
+          <li><a href="#projects" className="hover:underline text-white">Projects</a></li>
           <li><a href="#" className="hover:underline text-white">About</a></li>
           <li><a href="#footer" className="hover:underline text-white">Contact</a></li>
           <li><a href="#" className="hover:underline text-white">Sign Up/Login</a></li>

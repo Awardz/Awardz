@@ -93,7 +93,7 @@ function Resume() {
     
         {/* Education */}
         <div>
-          <h3 className="text-xl font-semibold mb-4 border-b-2 border-gray-200 pb-2 text-white">Education</h3>
+          <h3 className="text-xl font-semibold mb-4 border-b-2 border-gray-200 pb-2 text-white text-center">Education</h3>
           <div className="space-y-6">
                 <div>
                     <h4 className="font-bold text-white">Master of Science in Computer Science</h4>
@@ -109,7 +109,7 @@ function Resume() {
                 </div>
 
                 <div>
-                    <h4 className="text-xl font-semibold mb-4 border-b-2 border-gray-200 pb-2 text-white">Relevant Coursework</h4>
+                    <h4 className="text-xl font-semibold mb-4 border-b-2 border-gray-200 pb-2 text-white text-center">Relevant Coursework</h4>
                     <p className="text-white">Artificial Intelligence I, Operating System Security, Information System Security Engineering & Administration, Quantum Mechanics I</p>
                     <p className="text-white">In Progress: Machine Learning, Principle of Information Security, Advance Network & Internet Security</p>
                 </div>

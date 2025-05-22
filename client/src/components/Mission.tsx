@@ -1,9 +1,9 @@
 function Mission() {
     return (
         <section id="mission" className="min-h-screen flex items-center justify-center p-8 flex-grow">
-        <div className="flex flex-col items-center justify-center h-screen w-full">
-        <h1 className="text-4xl font-bold mb-4 text-white">Mission</h1>
-        <p className="text-lg text-center max-w-2xl text-white">
+        <div className="flex flex-col items-center justify-center h-screen w-screen border border-gray-800">
+        <h1 className="text-4xl font-bold mb-4 text-white border border-gray-800">Mission</h1>
+        <p className="text-lg text-center max-w-7xl text-white border border-gray-800">
             At Awardz, we believe in the power of recognition and appreciation. Our
             mission is to create a platform that empowers individuals and
             organizations to recognize and reward achievements, fostering a culture
