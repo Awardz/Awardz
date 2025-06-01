@@ -3,7 +3,7 @@ function Mission() {
         <section id="mission" className="min-h-screen flex items-center justify-center p-8 flex-grow">
         <div className="flex flex-col items-center justify-center h-screen w-screen border border-gray-800">
         <h1 className="text-4xl font-bold mb-4 text-white border border-gray-800">Mission</h1>
-        <p className="text-lg text-center max-w-7xl text-white border border-gray-800">
+        <p className="text-lg text-left w-full text-white border border-gray-800 w-full max-w-2xl p-4">
             At Awardz, we believe in the power of recognition and appreciation. Our
             mission is to create a platform that empowers individuals and
             organizations to recognize and reward achievements, fostering a culture
