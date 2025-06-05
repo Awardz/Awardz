@@ -1,7 +1,7 @@
 function Resume() {
   return (
-    <section id="resume" className="py-16 w-screen border border-grey-700">
-      <div className="mx-auto px-4 w-screen  border border-gray-800">
+    <section id="resume" className="py-16 w-screen border border-gray-800">
+      <div className="mx-auto px-4 w-screen">
         <h2 className="text-4xl font-bold mb-12 text-center text-white">My Resume</h2>
         
         {/* Experience */}
@@ -23,7 +23,7 @@ function Resume() {
         </div> */}
 
         {/* Skills */}
-        <div className="w-full mb-12 border border-gray-200 pb-4">
+        <div className="w-full mb-12 pb-4">
         <h3 className="text-3xl font-semibold mb-6 pb-2 text-white border-b-2 border-gray-400 w-full text-center">Skills</h3>
 
         <div className="flex flex-wrap items-center gap-4 mb-2 justify-center">
@@ -121,7 +121,7 @@ function Resume() {
         {/* Education */}
         <div>
           <h3 className="text-3xl font-semibold mb-4 border-b-2 border-gray-200 pb-2 text-white text-center">Education</h3>
-          <div className="space-y-6">
+          <div className="space-y-6 text-center">
                 <div>
                     <h4 className="font-bold text-white text-2xl">Master of Science in Computer Science</h4>
                     <p className="text-white text-xl">New York Institute of Technology, Decenmber 2025</p>

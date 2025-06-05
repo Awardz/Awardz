@@ -15,6 +15,7 @@ function Hero() {
     { lat: 35.6762, lng: 139.6503, name: "Tokyo" },
     { lat: 37.7749, lng: -122.4194, name: "San Francisco" },
     { lat: 48.8566, lng: 2.3522, name: "Paris" },
+    { lat:  43.6532, lng: -79.3832, name: "Toronto" },
   ];
   return (
     <motion.div
@@ -27,25 +28,25 @@ function Hero() {
         {/* Text Content - Left Side */}
         <div className="lg:w-1/2 w-full">
           <h1 className="text-7xl font-bold text-white mb-4 leading-tight">
-            We don't do anything yet. <br /> But when we do, it'll be amazing.
+            Global reach, <br />local touch
           </h1>
           <p className="font-normal text-2xl text-white mb-8 max-w-xl leading-relaxed border border-gray-700">
-            My name is John Doe a software engineer. I am a computer science graduate with a passion for building innovative solutions. 
-          I have experience in React, Node.js and database design, delivering secure solutions for clients. I am currently looking for a full-time position in a related field.
+            Our global network, supplemented by local offices, means we are small enough to care
+                with the strength to deliver. 
           </p>
         </div>
 
         {/* Globe - Right Side */}
-        <div className="lg:w-1/2 w-full flex justify-center">
+        <div className="lg:w-1/2 w-full flex justify-start">
           <motion.div
             variants={fadeIn}
-            className="w-full h-96 lg:h-[700px]"
+            className="w-full h-[600px] lg:h-[800px] -translate-x-30 -translate-y-20 rounded-full " 
           >
             <Globe
             globeImageUrl="//unpkg.com/three-globe/example/img/earth-night.jpg"
               backgroundColor="rgba(0,0,0,0)"
-              width={1000}
-              height={900}
+              width={1100}
+              height={1000}
               pointsData={cities}
               pointRadius={1}
               pointLabel={point => `
@@ -58,7 +59,8 @@ function Hero() {
                 ${(point as City).name.toUpperCase()}
               </div>
               `}
-              pointAltitude={0.1}
+              
+              pointAltitude={0.15}
               polygonsData={[]}
               polygonCapColor={() => "rgba(0,0,0,0)"}
               polygonSideColor={() => "rgba(0,0,0,0)"}

@@ -2,22 +2,14 @@ function Mission() {
     return (
         <section id="mission" className="min-h-screen flex items-center justify-center p-8 flex-grow">
         <div className="flex flex-col items-center justify-center h-screen w-screen border border-gray-800">
-        <h1 className="text-4xl font-bold mb-4 text-white border border-gray-800">Mission</h1>
+        <h1 className="text-4xl font-bold mb-4 text-white border border-gray-800">We Are Awardz</h1>
         <p className="text-lg text-left w-full text-white border border-gray-800 w-full max-w-2xl p-4">
-            At Awardz, we believe in the power of recognition and appreciation. Our
-            mission is to create a platform that empowers individuals and
-            organizations to recognize and reward achievements, fostering a culture
-            of appreciation and motivation. We aim to provide a seamless and
-            user-friendly experience that allows users to create, share, and
-            celebrate achievements in a meaningful way. By leveraging technology,
-            we strive to enhance the recognition process, making it more
-            accessible and impactful. Our goal is to build a community where
-            recognition is not just a formality, but a genuine expression of
-            gratitude and encouragement. We are committed to continuously improving
-            our platform, listening to our users, and adapting to their needs. We
-            envision a world where recognition is an integral part of every
-            organization and community, driving engagement, productivity, and
-            satisfaction.
+            Awardz is a global firm bringing on-demand talent, strategic workforce management,
+            and Tech-experts to growing businesses. We strive to understand the challenges the
+            Tech industry is facing today and use our robust business insight to find exclusive and
+            exceptional solutions. Our mission is to bring quality embedded innovative techniques
+            that are designed by our tech-experts to our clients. Our tech-experts work closely with
+            you, helping you embrace change, adapt and scale through a highly tailored, strategy-based consulting approach.
         </p>
         </div>
         </section>

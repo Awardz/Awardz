@@ -13,6 +13,8 @@ import 'aos/dist/aos.css'; // You can also use <link> for styles
 import { useEffect } from 'react';
 import { motion} from 'framer-motion';
 import Projects from './components/Projects'
+import Founder from './components/Founder'
+import Employees from './components/Employees'
 
 const VantaBackground = lazy(() => import('./components/VantaBackground'));
 function App() 
@@ -67,6 +69,23 @@ return (
           </motion.div>
         </section>
           
+          <section id="founder" className="min-h-screen flex items-center justify-center">
+          <motion.div 
+            initial={{ scale: 0.9 }}
+            whileInView={{ scale: 1 }}
+            className="font-bold text-white mb-4">
+            <Founder />
+          </motion.div>
+        </section>
+
+        <section id="projects" className="min-h-screen flex items-center justify-center">
+          <motion.div 
+            initial={{ scale: 0.9 }}
+            whileInView={{ scale: 1 }}
+            className="font-bold text-white mb-4">
+            <Employees />
+          </motion.div>
+        </section>
   
           <section id="resume" className="min-h-screen flex items-center justify-center">
           <motion.div 
