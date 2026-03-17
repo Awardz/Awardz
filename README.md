@@ -1,6 +1,6 @@
-# Hey
+<h1 align="center">Hey!</h1>
 
-## Aspiring Cybersecurity Professional
+<h2 align="center"> Aspiring Cybersecurity Professional | Building Skills in Reverse Engineering, Malware Analysis, and Offensive/Defensive Security</h2>
 <!--
 **Awardz/Awardz** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
