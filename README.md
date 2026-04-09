@@ -14,7 +14,7 @@ I'm passionate about understanding how software and malware work under the hood.
 Preparing for the SY0-701 exam.
 
 
-Planning to dive deeper into:
+### Planning to dive deeper into:
 - x86/ARM assembly & disassembly
 - IDA Pro / Ghidra / x64dbg / Radare2
 - YARA rules, Sigma, and behavioral detection
